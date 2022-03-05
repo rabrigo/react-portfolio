@@ -11,18 +11,18 @@ function App() {
       <Router>
         <div className="header">
           <span className="ronnel">Ronnel Abrigo</span>
-          <Link className="header-link" to="/react-portfolio/about">About</Link>
-          <Link className="header-link" to="/react-portfolio/portfolio">Portfolio</Link>
-          <Link className="header-link" to="/react-portfolio/contact">Contact</Link>
-          <Link className="header-link" to="/react-portfolio/resume">Resume</Link>
+          <Link className="header-link" to="/about">About</Link>
+          <Link className="header-link" to="/portfolio">Portfolio</Link>
+          <Link className="header-link" to="/contact">Contact</Link>
+          <Link className="header-link" to="/resume">Resume</Link>
         </div>
         <div className="navigation">
           <Routes>
-            <Route path="/react-portfolio" element={<Home />} />
-            <Route path="/react-portfolio/about" element={<About />} />
-            <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
-            <Route path="/react-portfolio/contact" element={<Contact />} />
-            <Route path="/react-portfolio/resume" element={<Resume />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
       </Router>
