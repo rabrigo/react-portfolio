@@ -3,14 +3,18 @@ body {
   background-color: #502064;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #3FA796;
+  text-decoration: none;
 }
 
 .nav {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ronnel, .nav-link {
+  font-size: 35px;
 }
 
 .ronnel {
@@ -18,13 +22,12 @@ code {
 }
 
 .nav-link {
-  margin: 5px;
-  color: #3FA796;
-  text-decoration: none;
+  margin: 20px;
   position: relative;
 }
 
 .body-element {
   line-height: 120%;
   color: #d6c3ff;
+  font-size: 30px;
 }
