@@ -8,12 +8,12 @@ a {
   text-decoration: none;
 }
 
-.nav {
+.header {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.ronnel, .nav-link {
+.ronnel, .header-link {
   font-size: 35px;
 }
 
@@ -21,12 +21,12 @@ a {
   color: #FFBD35;
 }
 
-.nav-link {
+.header-link {
   margin: 20px;
   position: relative;
 }
 
-.body-element {
+.navigation {
   line-height: 120%;
   color: #d6c3ff;
   font-size: 30px;

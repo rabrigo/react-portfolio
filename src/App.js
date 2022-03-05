@@ -9,14 +9,14 @@ function App() {
   return (
     <>
       <Router>
-        <div className="nav">
+        <div className="header">
           <span className="ronnel">Ronnel Abrigo</span>
-          <Link className="nav-link" to="/about">About</Link>
-          <Link className="nav-link" to="/portfolio">Portfolio</Link>
-          <Link className="nav-link" to="/contact">Contact</Link>
-          <Link className="nav-link" to="/resume">Resume</Link>
+          <Link className="header-link" to="/about">About</Link>
+          <Link className="header-link" to="/portfolio">Portfolio</Link>
+          <Link className="header-link" to="/contact">Contact</Link>
+          <Link className="header-link" to="/resume">Resume</Link>
         </div>
-        <div className="body-element">
+        <div className="navigation">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
