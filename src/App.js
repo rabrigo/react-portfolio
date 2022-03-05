@@ -8,16 +8,21 @@ function App() {
   return (
     <>
       <Router>
-        <Link className="nav-link" to="/about">About</Link>
-        <Link className="nav-link" to="/contact">Contact</Link>
-        <Link className="nav-link" to="/portfolio">Portfolio</Link>
-        <Link className="nav-link" to="/resume">Resume</Link>
+        <div className = "nav">
+          <span className="ronnel">Ronnel Abrigo</span>
+          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/portfolio">Portfolio</Link>
+          <Link className="nav-link" to="/contact">Contact</Link>
+          <Link className="nav-link" to="/resume">Resume</Link>
+        </div>
+        <div className = "body-element">
         <Routes>
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        </div>
       </Router>
     </>
   );
