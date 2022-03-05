@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.cd16544c.css",
+    "main.js": "/react-portfolio/static/js/main.3dbed199.js",
+    "index.html": "/react-portfolio/index.html",
+    "main.cd16544c.css.map": "/react-portfolio/static/css/main.cd16544c.css.map",
+    "main.3dbed199.js.map": "/react-portfolio/static/js/main.3dbed199.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd16544c.css",
+    "static/js/main.3dbed199.js"
+  ]
+}
