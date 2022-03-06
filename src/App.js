@@ -18,7 +18,7 @@ function App() {
         </div>
         <div className="navigation">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/react-portfolio" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
