@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.e15296ad.css",
-    "main.js": "/home/static/js/main.604cc555.js",
-    "static/media/ponder.png": "/home/static/media/ponder.ee05d921c4343b4ff6ad.png",
-    "static/media/furiendr.png": "/home/static/media/furiendr.ae88b4fa2e0208db7517.png",
-    "static/media/resume.png": "/home/static/media/resume.94cd71426e498407b107.png",
-    "static/media/linkedin-resume-2.pdf": "/home/static/media/linkedin-resume-2.ff5dc0c3df92938e3708.pdf",
-    "index.html": "/home/index.html",
-    "main.e15296ad.css.map": "/home/static/css/main.e15296ad.css.map",
-    "main.604cc555.js.map": "/home/static/js/main.604cc555.js.map"
+    "main.css": "/react-portfolio/home/static/css/main.e15296ad.css",
+    "main.js": "/react-portfolio/home/static/js/main.73e3b278.js",
+    "static/media/ponder.png": "/react-portfolio/home/static/media/ponder.ee05d921c4343b4ff6ad.png",
+    "static/media/furiendr.png": "/react-portfolio/home/static/media/furiendr.ae88b4fa2e0208db7517.png",
+    "static/media/resume.png": "/react-portfolio/home/static/media/resume.94cd71426e498407b107.png",
+    "static/media/linkedin-resume-2.pdf": "/react-portfolio/home/static/media/linkedin-resume-2.ff5dc0c3df92938e3708.pdf",
+    "index.html": "/react-portfolio/home/index.html",
+    "main.e15296ad.css.map": "/react-portfolio/home/static/css/main.e15296ad.css.map",
+    "main.73e3b278.js.map": "/react-portfolio/home/static/js/main.73e3b278.js.map"
   },
   "entrypoints": [
     "static/css/main.e15296ad.css",
-    "static/js/main.604cc555.js"
+    "static/js/main.73e3b278.js"
   ]
 }
