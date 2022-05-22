@@ -1,5 +1,6 @@
 # React Portfolio
 
+https://rabrigo.github.io/react-portfolio/
 ![screenshot of my react porfolio](./src/screenshots/portfolio-gif.gif)
 
 <details>
