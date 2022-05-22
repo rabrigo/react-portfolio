@@ -7,16 +7,15 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <>
+    <div className="main-display">
       <Router>
         <div className="header">
-          <span className="ronnel">Ronnel Abrigo</span>
-          <Link className="header-link" to="/about">About</Link>
-          <Link className="header-link" to="/portfolio">Portfolio</Link>
-          <Link className="header-link" to="/contact">Contact</Link>
-          <Link className="header-link" to="/resume">Resume</Link>
+          <Link className="link-margin-right" to="/about">About</Link>
+          <Link className="link-margin-right" to="/portfolio">Portfolio</Link>
+          <Link className="link-margin-right" to="/contact">Contact</Link>
+          <Link to="/resume">Resume</Link>
         </div>
-        <div className="navigation">
+        <div className="main-content">
           <Routes>
             <Route path="/react-portfolio" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -26,7 +25,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-    </>
+    </div>
   );
 }
 
