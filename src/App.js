@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="main-display">
       <Router>
-        <div className="header">
-          <Link className="link-margin-right" to="/about">About</Link>
-          <Link className="link-margin-right" to="/portfolio">Portfolio</Link>
-          <Link className="link-margin-right" to="/contact">Contact</Link>
-          <Link to="/resume">Resume</Link>
-        </div>
+        <ul className="header">
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/resume">Resume</Link></li>
+        </ul>
         <div className="main-content">
           <Routes>
             <Route path="/react-portfolio" element={<Home />} />
