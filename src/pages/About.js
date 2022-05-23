@@ -1,12 +1,24 @@
 import React from 'react'
+import Laptop from '../screenshots/laptop-pixabay.png'
 
 export default function About() {
     return (
-        <div className = "about-text">
-            I am a creative person that enjoys making music, dancing, performing, and making videos. After working as a technician, I decided to follow through with an idea prompted by the pandemic: pursue a career path in tech. There were several factors informing this. At the time, I was living just 30 minutes away from Silicon Valley, several of my friends worked in tech, and having asthma made work remote ideal.
-            <br></br>
-            <br></br>
-            My skills informed this as well. All of my work experience involved computer use. I studied J# in high school through AP Computer Science and dabbled in 2d game engines. At my most recent job, I was already practicing behaviors crucial to working in tech. I was practicing analytical thinking, troubleshooting hardware and software, collaborating across different teams, and adopting a solution driven mindset.
+        <div>
+            <ul className="about-text">
+                <li>
+                    <img className="laptop-pic" src={Laptop}/>
+                </li>
+                <li className="bio"> 
+                {/* <h3>About Me</h3> */}
+                    My name is Ronnel and I am a Software Developer. This past March, I received a certificate in Full Stack Development at the University of Washington's Coding Boot Camp. Outside of coding, I am someone that enjoys making music, shooting and editing videos, and dancing.
+                </li>
+                {/* 
+                I believe this plays a huge part in why I enjoy making interfaces.
+                <br></br>
+                <li>
+                During my first group project, I designed a sleek look for our app Furiendr. This was my group's application for a pet adoption API. Click on 'Portfolio' for further details on this project. During this project, I realized that I also enjoyed backend work. I found ways to pass values from the inputs into our request into our API.
+                </li> */}
+            </ul>
         </div>
     )
 }

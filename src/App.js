@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./pages/Home.js"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -10,10 +10,10 @@ function App() {
     <div className="main-display">
       <Router>
         <ul className="header">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/resume">Resume</Link></li>
+          <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+          <li><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
+          <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+          <li><NavLink to="/resume" activeClassName="active">Resume</NavLink></li>
         </ul>
         <div className="main-content">
           <Routes>

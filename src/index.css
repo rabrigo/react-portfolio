@@ -1,20 +1,43 @@
 body {
   font-family: 'BIZ UDPGothic', sans-serif;
-  background-color: black;
+  background-color: #F2F2F2;
 }
 
+/* old color: #2EC4B6; */
 a {
-  color: #3FA796;
+  color: #33403E;
   text-decoration: none;
+  filter: drop-shadow(2px 3px 0 #8b9e9f);
 }
 
+a:hover {
+  color: #a1421f;
+}
+
+/* old color: #ff3448; */
+.active {
+  color:  #a1421f;
+}
+
+.active::after {
+  content: '';
+  position: relative;
+  width: 100%;
+  height: 4px;
+  display: block;
+  background-color: #a1421f;
+  top: 3px;
+  left: -0.5%;
+}
+
+/* old color #502064 */
 .main-display {
   padding: 5px 0;
   width: 800px;
-  background-color: #502064;
+  background-color: #94A4A5;
   margin: 50px auto;
   border-radius: 30px;
-  filter: drop-shadow(13px 13px 0 #1f0a27);
+  filter: drop-shadow(10px 10px 1px #e2e6e7);
 }
 
 .header {
@@ -30,22 +53,55 @@ a {
 
 .main-content {
   line-height: 170%;
-  color: white;
+  color: #33403E;
   margin: 0 60px 50px;
   font-size: 15px;
+}
+
+.laptop-pic {
+  width: 100%;
+}
+
+.about-text {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+li .laptop-pic {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 20px 15px 0;
+}
+
+.bio {
+  width: 52.5%;
+  margin-top: 25px;
+}
+
+.portfolio, h3 {
+  margin: 0 0 15px;
 }
 
 .portfolio {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  padding: 0;
 }
 
 /* .portfolio, li {
-  margin: 0 15px;
+  margin: 0 0 15px;
 } */
 
 .portfolio-pics {
-  width: 350px;
+  /* width: 600px; */
+  max-width: 100%
 }
+
+/* .portfolio-text {
+  width: 600px;
+} */
